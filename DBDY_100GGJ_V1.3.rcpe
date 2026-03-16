@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <MicomToolCommonProjectFile Version="1.00">
-  <CreatorType Name="CubeSuite+" Version="V8.14.00  [02 Jun 2025]" />
+  <CreatorType Name="CubeSuite+" Version="V8.15.00  [28 Nov 2025]" />
   <Placeholders>
     <PlaceholderPrefix>%</PlaceholderPrefix>
     <PlaceholderPostfix>%</PlaceholderPostfix>
@@ -184,7 +184,7 @@
       <DebugToolSettings />
     </DebugOptions>
     <Device Series="RL78">R7F100GGJxFB</Device>
-    <BuildOptions Name="CC-RL" Version="V1.15.01">
+    <BuildOptions Name="CC-RL" Version="V1.16.00">
       <BuildMode Name="DefaultBuild" Active="True">
         <LinkOrder>
           <Path>DefaultBuild\main.obj</Path>

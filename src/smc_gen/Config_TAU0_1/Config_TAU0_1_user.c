@@ -70,11 +70,13 @@ static void __near r_Config_TAU0_1_interrupt(void)
 	//1mS定时器中断 01通道
 	MODBUSTiming();		//MODBUS定时器
 	if(SysTime)SysTime--;
-	if(Guard[0])Guard[0]--;
-	if(Guard[1])Guard[1]--;
-	if(Guard[2])Guard[2]--;
-	if(Guard[3])Guard[3]--;
-	if(Guard[4])Guard[4]--;
+	//if(Guard[0])Guard[0]--;
+	//if(Guard[1])Guard[1]--;
+	//if(Guard[2])Guard[2]--;
+	//if(Guard[3])Guard[3]--;
+	//if(Guard[4])Guard[4]--;
+	
+	
 	Switch[0] = (Switch[0]<<1) | CONCH1;	//读取控制IO的状态
 	Switch[1] = (Switch[1]<<1) | CONCH2;
 	Switch[2] = (Switch[2]<<1) | CONCH3;
